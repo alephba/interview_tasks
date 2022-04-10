@@ -1,0 +1,22 @@
+name: interview_tasks
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter=1.0.0
+  - loguru=0.6.0 
+  - matplotlib=3.5.1
+  - matplotlib-base=3.5.1
+  - matplotlib-inline=0.1.3
+  - numpy=1.22.3
+  - pandas=1.4.2
+  - python=3.9.
+  - scikit-learn=1.0.2
+  - scipy=1.8.0
+  - seaborn=0.11.2
+  - seaborn-base=0.11.2
+  - statsmodels=0.13.2
+  - pip:
+    - ipykernel==6.12.1
+    - jdatetime==4.1.0
+
